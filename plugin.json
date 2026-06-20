@@ -1,0 +1,6 @@
+{
+  "name": "antigravity-operator",
+  "version": "1.0.0",
+  "description": "ECC-inspired memory, rigour, and security optimization plugin natively designed for Antigravity agents. Forces strict TDD workflows and security audits.",
+  "author": "Open Source Community"
+}
