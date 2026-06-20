@@ -1,9 +1,9 @@
 ---
 name: rgpd-auditor
-description: A specialized compliance auditor. Scans architecture and code for strict adherence to GDPR (RGPD) and Algerian Law 18-07 regarding personal data protection.
+description: A specialized compliance auditor. Scans architecture and code for strict adherence to the European GDPR (RGPD) regarding personal data protection.
 ---
 
-# GDPR & Law 18-07 Compliance Auditor
+# GDPR Compliance Auditor
 
 ## When to Use
 Trigger this skill whenever the user asks to "check for compliance", "audit RGPD", or right before deploying databases or features that handle user personal data (PII).
@@ -16,7 +16,6 @@ Trigger this skill whenever the user asks to "check for compliance", "audit RGPD
 1. **Data Minimization & Encryption Check**:
    - Verify that passwords are hashed securely (e.g., using bcrypt/argon2).
    - Ensure sensitive PII (Personal Identifiable Information) like national IDs, payment info, or health data are encrypted at rest.
-   - **For Algerian Law 18-07**: Ensure the architecture accounts for data localization (data hosted on national territory) if handling sensitive citizen data, and flag this requirement to the developer.
 
 2. **Consent & Tracking Check**:
    - Check the frontend code for cookie banners. No third-party tracking cookies (Google Analytics, Meta Pixel) should fire before explicit, active user consent.
