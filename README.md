@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner.png" alt="Antigravity Operator Banner">
+</p>
+
 # Antigravity Operator
 
 An ECC-inspired, performance-optimized, native plugin for **Antigravity**. 
