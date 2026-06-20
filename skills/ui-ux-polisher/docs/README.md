@@ -10,5 +10,4 @@ When you want the AI to style a component, just say:
 
 The AI will apply our included Tailwind design preset.
 
----
-> 💎 **Passez au niveau supérieur :** Ce skill gratuit améliore grandement le design. Mais si vous voulez que l'IA implémente des architectures complètes et soit protégée par notre *Sandbox de Sécurité*, découvrez notre **Pack Premium Antigravity**.
+

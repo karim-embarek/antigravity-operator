@@ -7,5 +7,4 @@ Welcome to the Fintech module!
 ## How to use:
 > *"Utilise le skill `slickpay-integrator` pour créer un fichier de variables d'environnement et préparer l'intégration des paiements CIB/EDAHABIA."*
 
----
-> 💎 **Passez au niveau supérieur :** Ce skill gratuit est parfait pour initier les paiements. Mais si vous avez besoin d'un audit de sécurité profond sur vos webhooks financiers, découvrez le skill `security-sandbox-enforcer` de notre **Pack Premium Antigravity**.
+

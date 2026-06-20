@@ -7,5 +7,4 @@ Welcome to the Algerian Compliance module!
 ## How to use:
 > *"Utilise le skill `law-18-07-auditor` pour vérifier si mon architecture SaaS est légale en Algérie."*
 
----
-> 💎 **Passez au niveau supérieur :** Vous avez besoin d'héberger vos données en Algérie pour respecter la loi ? Le cloud public (AWS/Vercel) ne marchera pas. Découvrez le skill `vps-sovereign-deployer` dans notre **Pack Premium Antigravity** pour déployer votre SaaS sur un VPS 100% algérien sécurisé.
+

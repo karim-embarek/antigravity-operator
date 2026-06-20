@@ -7,5 +7,4 @@ Welcome to the Security Audit module!
 ## How to use:
 > *"Utilise le skill `security-reviewer` pour auditer mon code backend."*
 
----
-> 💎 **Passez au niveau supérieur :** Saviez-vous que l'IA elle-même peut être une faille de sécurité ? Pour empêcher l'agent Antigravity d'exécuter des commandes destructrices sur votre Mac/Serveur, installez le skill `security-sandbox-enforcer` de notre **Pack Premium Antigravity**.
+

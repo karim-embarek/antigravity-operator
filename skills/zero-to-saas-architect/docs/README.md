@@ -10,5 +10,4 @@ Just tell your agent:
 
 The AI will generate a complete `ARCHITECTURE_PLAN.md` based on industry best practices.
 
----
-> 💎 **Passez au niveau supérieur :** Ce skill gratuit est très puissant pour démarrer. Mais si vous voulez que l'IA déploie automatiquement cette architecture sur un serveur VPS sécurisé, ou écrive des tests e2e automatiquement, découvrez notre **Pack Premium Antigravity**.
+
