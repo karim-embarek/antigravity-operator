@@ -1,38 +1,54 @@
-// Neo-SaaS Tailwind Configuration Preset
-// Agent: Read this to understand the color palette and shadow depth required.
+// Minimalist & Modern Design System Preset (Apple/Vercel/Linear-inspired)
+// Agent: Apply this refined minimalist palette and micro-interaction setup.
 
 module.exports = {
   theme: {
     extend: {
       colors: {
-        border: "hsl(var(--border))",
-        input: "hsl(var(--input))",
-        ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
+        border: "hsl(var(--border, 240 5.9% 90%))",
+        input: "hsl(var(--input, 240 5.9% 90%))",
+        ring: "hsl(var(--ring, 240 5.9% 10%))",
+        background: "hsl(var(--background, 0 0% 100%))",
+        foreground: "hsl(var(--foreground, 240 10% 3.9%))",
+        surface: {
+          DEFAULT: "hsl(var(--surface, 0 0% 98%))",
+          subtle: "hsl(var(--surface-subtle, 240 4.8% 95.9%))",
+        },
         primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
+          DEFAULT: "hsl(var(--primary, 240 5.9% 10%))",
+          foreground: "hsl(var(--primary-foreground, 0 0% 98%))",
+        },
+        muted: {
+          DEFAULT: "hsl(var(--muted, 240 4.8% 95.9%))",
+          foreground: "hsl(var(--muted-foreground, 240 3.8% 46.1%))",
         },
       },
+      borderRadius: {
+        lg: "var(--radius, 0.5rem)",
+        md: "calc(var(--radius, 0.5rem) - 2px)",
+        sm: "calc(var(--radius, 0.5rem) - 4px)",
+      },
       boxShadow: {
-        'neo': '0 4px 14px 0 rgba(0, 0, 0, 0.05)',
-        'glass': 'inset 0 1px 0 0 rgba(255, 255, 255, 0.1)',
+        "subtle": "0 1px 2px 0 rgba(0, 0, 0, 0.03)",
+        "card": "0 0 0 1px rgba(0, 0, 0, 0.05), 0 2px 4px 0 rgba(0, 0, 0, 0.02)",
+      },
+      transitionTimingFunction: {
+        "smooth": "cubic-bezier(0.16, 1, 0.3, 1)",
       },
       animation: {
-        'fade-in': 'fadeIn 0.5s ease-out',
-        'slide-up': 'slideUp 0.4s ease-out',
+        "fade-in": "fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1)",
+        "scale-in": "scaleIn 0.2s cubic-bezier(0.16, 1, 0.3, 1)",
       },
       keyframes: {
         fadeIn: {
-          '0%': { opacity: '0' },
-          '100%': { opacity: '1' },
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
         },
-        slideUp: {
-          '0%': { transform: 'translateY(10px)', opacity: '0' },
-          '100%': { transform: 'translateY(0)', opacity: '1' },
-        }
-      }
+        scaleIn: {
+          "0%": { opacity: "0", transform: "scale(0.97)" },
+          "100%": { opacity: "1", transform: "scale(1)" },
+        },
+      },
     },
   },
 }
